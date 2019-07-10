@@ -1,13 +1,10 @@
 body{ background-image: url("https://1.bp.blogspot.com/-sXv-WVLIeyc/WY4JGQlXPOI/AAAAAAAAD9c/9ykDz5kt8UIiNenlmWUpuib_oRBFjsOjACLcBGAs/s1600/best-laptop-for-developers.jpg");
-}
-   header{
+}header{
   text-align: center;
-  background-color: chartreuse;
-  font-size: 1.5em;
-  padding: 1em;
- 
+  background-color: chartreuse; 
 }
-      
+
+
 ul{
  
     font-size: large;
@@ -15,12 +12,18 @@ ul{
     color: rgb(138, 251, 255);
 
 }
-div{background-color:rgb(88, 171, 248)}
+div{background-color:rgb(137, 240, 226)}
 *{box-sizing: border-box;}
 $bg-color: rgb(100,100,100);
 
+body {background-color: crimson;
+header {
+  background-color: rgba(223, 138, 138, 0.89);
+  font-size: 1.5em;
+  text-align: center;
+  padding: 1em;
+}
 
- 
 .panel-wrapper {
   position: relative;
 }
@@ -65,8 +68,3 @@ $bg-color: rgb(100,100,100);
   margin-top: -100px;
   position: relative;
 }
-
-
-  position: relative;
-}
-
