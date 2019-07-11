@@ -10,13 +10,29 @@ background: url(http://getwallpapers.com/wallpaper/full/b/b/a/693690-new-good-ba
 
 }
 ul{font-size:19px;
-    list-style: circle ;
-   
-   
-    
-
-   
+text-align: center;
+padding: 14px 16px; 
+text-decoration: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+list-style: none;
 }
+li{float: left;}
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;}
+ul.active{
+  background-color: black;
+}
+a:hover{
+  background-color: antiquewhite;
+background-color: blueviolet;}
+  a:active{background-color: rgb(255, 0, 200);
+  }
  *{box-sizing: border-box;}
 $bg-color: rgb(100,100,100);
 
@@ -74,14 +90,16 @@ header {color:rgb(195, 248, 1);
   max-height: 100px;
   overflow: hidden;
   transition: max-height .5s ease;
-  font-size: 19px ; 
+  font-size: 16px ; 
   color: red;
+  font-weight:lighter;
   
 }
 .fade {
   background: linear-gradient(to bottom, rgba($bg-color,0) 0%,rgba($bg-color,1) 75%);
   height: 100px;
   margin-top: -100px;
-  position: relative;
+  position:relative;
 }
+
 
