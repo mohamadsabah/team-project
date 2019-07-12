@@ -26,12 +26,14 @@ li a {
   padding: 14px 16px;
   text-decoration: none;}
 ul.active{
-  background-color: black;
+  background-color: rgb(15, 14, 14);
+  opacity: .9;
 }
 a:hover{
   background-color: antiquewhite;
-background-color: blueviolet;}
-  a:active{background-color: rgb(255, 0, 200);
+background-color:blue;}
+  a:active{background-color:blue;
+  
   }
  *{box-sizing: border-box;}
 $bg-color: rgb(100,100,100);
@@ -49,8 +51,24 @@ header {color:rgb(195, 248, 1);
   text-decoration: lightskyblue;
 
 }
+.div1:hover a{
+  display: block;
+  margin: none;
+  padding: 7px;
+  text-align: center;
+  
+}
+.p1{
+  display: none;
+  font-size: 20px;
+  padding: 1px;
+  background-color:rgb(81, 81, 211);
+}
+.div1{font-size: 20px;
+  color:#ccc;
+  
 
-
+}
 
 
 .panel-wrapper {
