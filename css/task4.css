@@ -11,27 +11,84 @@ background: url(http://getwallpapers.com/wallpaper/full/b/b/a/693690-new-good-ba
 }
 ul{font-size:19px;
 text-align: center;
-padding: 14px 16px; 
+padding: 12px 16px; 
 text-decoration: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
 list-style: none;
+
+
+
 }
-li{float: left;}
-li a {
-  display: inline-block;
+
+li{float: left;
+  border-right:1px solid rgb(73, 72, 72);
+}
+li a, .dropbtn{
+  display:inline-block;
   color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;}
+  text-decoration: none;
+}
+
+  li a.activet{
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  
+
+
+  li a:hover:not(.activet){
+background-color: #555;
+  color: white;
+}
+li:last-child{
+float:right;
+
+
+}
+
+li.dropbtn{
+display: inline-block;}
+.dropdown-content a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;}
+  .dropdown-content a:hover{
+
+    background-color: #ddd;}
+    .dropdown:hover .dropdown-content {
+      display: block;}
+
+
+ li .dropdown-content{
+  display: none;
+  position: fixed;
+  background-color:#f9f9f9;
+  min-width:80px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+
+}
+
+
+
+.dropbtn:hover,.dropdown-content{display:block;}
 ul.active{
   background-color: rgb(15, 14, 14);
   opacity: .9;
 }
+
+  
 a:hover{
   background-color: antiquewhite;
-background-color:blue;}
+background-color:#555;}
   a:active{background-color:blue;
   
   }
@@ -39,15 +96,15 @@ background-color:blue;}
 $bg-color: rgb(100,100,100);
 
 body {background-color: chocolate;}
-header {color:rgb(195, 248, 1);
+header {color:rgb(57, 58, 53);
   
   background-color: #1b8fd8;
  
  border:inset blue ;opacity:0.5;
  
-  font-size: 1.1em;
+  font-size: 150%;
   text-align: center;
-  padding: 1em;
+  padding: 0.8em;
   text-decoration: lightskyblue;
 
 }
@@ -70,7 +127,10 @@ header {color:rgb(195, 248, 1);
 
 }
 
-
+::selection{
+  color:red;
+background-color:pink;
+}
 .panel-wrapper {
   position: relative;
 }
@@ -111,13 +171,13 @@ header {color:rgb(195, 248, 1);
   font-size: 16px ; 
   color: red;
   font-weight:lighter;
+  background: rgba(13, 157, 201, 0.123)
   
 }
-.fade {
-  background: linear-gradient(to bottom, rgba($bg-color,0) 0%,rgba($bg-color,1) 75%);
-  height: 100px;
-  margin-top: -100px;
-  position:relative;
-}
+
+
+
+
+
 
 
