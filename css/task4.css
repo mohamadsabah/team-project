@@ -1,12 +1,8 @@
 body{
-background: url(http://getwallpapers.com/wallpaper/full/b/b/a/693690-new-good-background-picture-1920x1080.jpg)no-repeat center fixed;
 -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-    
-
-
 
 }
 ul{font-size:19px;
@@ -175,6 +171,17 @@ background-color:pink;
   
 }
 
+.sec{text-align: center;
+  background-color: #4CAF50;
+
+
+
+
+
+}
+#sec1{position: relative;
+
+}
 
 
 
